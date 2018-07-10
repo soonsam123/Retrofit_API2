@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Retrofit_API_2</string>
+    <string name="course_image">Imagem do Curso</string>
+    <string name="courses">Courses</string>
+    <string name="tracks">Tracks</string>
+    <string name="degrees">Degrees</string>
+    <string name="changes">Changes</string>
+    <string name="my_repos">My Repositories</string>
+    <string name="stackoverflow">StackOverFlow</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="profile_picture">Profile Picture</string>
+</resources>

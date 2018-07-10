@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/courses"
+        android:title="@string/courses"/>
+
+    <item
+        android:id="@+id/tracks"
+        android:title="@string/tracks"/>
+
+    <item
+        android:id="@+id/degrees"
+        android:title="@string/degrees"/>
+
+    <item
+        android:id="@+id/changes"
+        android:title="@string/changes"/>
+
+    <item
+        android:id="@+id/myRepos"
+        android:title="@string/my_repos"/>
+
+    <item
+        android:id="@+id/stack"
+        android:title="@string/stackoverflow"/>
+
+</menu>

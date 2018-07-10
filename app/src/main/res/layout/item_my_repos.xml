@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <!-- 1. Name -->
+            <TextView
+                android:id="@+id/txtView_name_itemMyRepos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textSize="22sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <!-- 2. URL -->
+            <TextView
+                android:id="@+id/txtView_url_itemMyRepos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="URL"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_name_itemMyRepos"/>
+
+            <!-- 3. Language -->
+            <TextView
+                android:id="@+id/txtView_language_itemMyRepos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Language"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_url_itemMyRepos"/>
+
+            <!-- 4. USER -->
+            <TextView
+                android:id="@+id/txtView_user_itemMyRepos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="OWNER OF THE REPOSITORY"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_language_itemMyRepos"/>
+
+
+            <!-- 4.2. User Avatar -->
+            <ImageView
+                android:id="@+id/imgView_userAvatar_itemMyRepos"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_user_itemMyRepos"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+            <!-- 4.1. Login -->
+            <TextView
+                android:id="@+id/txtView_login_itemMyRepos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Login"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                app:layout_constraintStart_toEndOf="@+id/imgView_userAvatar_itemMyRepos"
+                app:layout_constraintTop_toTopOf="@+id/imgView_userAvatar_itemMyRepos"
+                app:layout_constraintBottom_toBottomOf="@+id/imgView_userAvatar_itemMyRepos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
