@@ -16,7 +16,7 @@
 
             <!-- 1. Name -->
             <TextView
-                android:id="@+id/txtView_name_itemMyRepos"
+                android:id="@+id/text_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -31,7 +31,7 @@
 
             <!-- 2. URL -->
             <TextView
-                android:id="@+id/txtView_url_itemMyRepos"
+                android:id="@+id/text_url"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -41,11 +41,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintTop_toBottomOf="@+id/txtView_name_itemMyRepos"/>
+                app:layout_constraintTop_toBottomOf="@+id/text_name"/>
 
             <!-- 3. Language -->
             <TextView
-                android:id="@+id/txtView_language_itemMyRepos"
+                android:id="@+id/text_language"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -55,11 +55,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintTop_toBottomOf="@+id/txtView_url_itemMyRepos"/>
+                app:layout_constraintTop_toBottomOf="@+id/text_url"/>
 
             <!-- 4. USER -->
             <TextView
-                android:id="@+id/txtView_user_itemMyRepos"
+                android:id="@+id/text_user"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -69,12 +69,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintTop_toBottomOf="@+id/txtView_language_itemMyRepos"/>
+                app:layout_constraintTop_toBottomOf="@+id/text_language"/>
 
 
             <!-- 4.2. User Avatar -->
             <ImageView
-                android:id="@+id/imgView_userAvatar_itemMyRepos"
+                android:id="@+id/text_user_avatar"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
@@ -82,22 +82,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintTop_toBottomOf="@+id/txtView_user_itemMyRepos"
+                app:layout_constraintTop_toBottomOf="@+id/text_user"
                 app:layout_constraintBottom_toBottomOf="parent"/>
 
 
             <!-- 4.1. Login -->
             <TextView
-                android:id="@+id/txtView_login_itemMyRepos"
+                android:id="@+id/text_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:text="Login"
                 android:textSize="18sp"
                 android:textColor="@color/colorBlack"
-                app:layout_constraintStart_toEndOf="@+id/imgView_userAvatar_itemMyRepos"
-                app:layout_constraintTop_toTopOf="@+id/imgView_userAvatar_itemMyRepos"
-                app:layout_constraintBottom_toBottomOf="@+id/imgView_userAvatar_itemMyRepos"
+                app:layout_constraintStart_toEndOf="@+id/text_user_avatar"
+                app:layout_constraintTop_toTopOf="@+id/text_user_avatar"
+                app:layout_constraintBottom_toBottomOf="@+id/text_user_avatar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"/>
 

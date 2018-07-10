@@ -58,9 +58,9 @@ public class StackActivity extends BaseActivity implements View.OnClickListener 
         setContentView(R.layout.activity_stack);
 
         // 1. Set up the widgets;
-        mSpinnerQuestions = findViewById(R.id.spinner_activityStack);
-        mProgressBar = findViewById(R.id.progressBar_activityStack);
-        mBodyQuestion = findViewById(R.id.txtView_questionBody_activityStack);
+        mSpinnerQuestions = findViewById(R.id.spinner);
+        mProgressBar = findViewById(R.id.progressbar);
+        mBodyQuestion = findViewById(R.id.text_question_body);
 
         // 2. The user selected one of the items in the spinner;
         mSpinnerQuestions.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -89,10 +89,10 @@ public class StackActivity extends BaseActivity implements View.OnClickListener 
             }
         });
 
-        mAuthenticateButton = findViewById(R.id.floatingBtn_authenticate_activityStack);
+        mAuthenticateButton = findViewById(R.id.button_authenticate);
         mAuthenticateButton.setOnClickListener(this);
 
-        mRecyclerView = findViewById(R.id.recyclerView_activityStack);
+        mRecyclerView = findViewById(R.id.recycler_view);
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(StackActivity.this));
 
@@ -142,7 +142,7 @@ public class StackActivity extends BaseActivity implements View.OnClickListener 
                     Toast.makeText(this, "You need to authenticate first", Toast.LENGTH_SHORT).show();
                 }
                 break;
-            case R.id.floatingBtn_authenticate_activityStack:
+            case R.id.button_authenticate:
                 // TODO
                 break;
         }

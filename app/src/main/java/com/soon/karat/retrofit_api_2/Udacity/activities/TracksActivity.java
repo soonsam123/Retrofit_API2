@@ -72,7 +72,7 @@ public class TracksActivity extends BaseActivity {
 
 
     private void setupWidgets() {
-        mRecyclerView = findViewById(R.id.recyclerView_activityTracks);
+        mRecyclerView = findViewById(R.id.recycler_view);
     }
 
     private void setupRecyclerView(List<Track> trackList) {

@@ -76,8 +76,8 @@ public class ChangeActivity extends BaseActivity {
 
 
     private void setupWidgets() {
-        mRecyclerView = findViewById(R.id.recyclerView_activityChange);
-        mProgressBar = findViewById(R.id.progressBar_activityChange);
+        mRecyclerView = findViewById(R.id.recycler_view);
+        mProgressBar = findViewById(R.id.progressbar);
     }
 
     public void setupRecyclerView(List<Change> changeList) {

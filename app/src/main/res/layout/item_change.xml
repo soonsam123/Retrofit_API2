@@ -7,7 +7,7 @@
 
     <!-- 1. Subject -->
     <TextView
-        android:id="@+id/txtView_subject_itemChange"
+        android:id="@+id/text_subject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

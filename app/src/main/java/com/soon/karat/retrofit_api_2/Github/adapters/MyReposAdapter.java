@@ -82,11 +82,11 @@ public class MyReposAdapter extends RecyclerView.Adapter<MyReposAdapter.ItemHold
         public ItemHolder(View itemView) {
             super(itemView);
 
-            name = itemView.findViewById(R.id.txtView_name_itemMyRepos);
-            url = itemView.findViewById(R.id.txtView_url_itemMyRepos);
-            language = itemView.findViewById(R.id.txtView_language_itemMyRepos);
-            avatarURL = itemView.findViewById(R.id.imgView_userAvatar_itemMyRepos);
-            login = itemView.findViewById(R.id.txtView_login_itemMyRepos);
+            name = itemView.findViewById(R.id.text_name);
+            url = itemView.findViewById(R.id.text_url);
+            language = itemView.findViewById(R.id.text_language);
+            avatarURL = itemView.findViewById(R.id.text_user_avatar);
+            login = itemView.findViewById(R.id.text_login);
 
         }
 

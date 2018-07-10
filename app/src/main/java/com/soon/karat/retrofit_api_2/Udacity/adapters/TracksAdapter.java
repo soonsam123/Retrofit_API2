@@ -56,8 +56,8 @@ public class TracksAdapter extends RecyclerView.Adapter<TracksAdapter.ItemHolder
         public ItemHolder(View itemView) {
             super(itemView);
 
-            name = itemView.findViewById(R.id.txtView_name_itemTracks);
-             description = itemView.findViewById(R.id.txtView_description_itemTracks);
+            name = itemView.findViewById(R.id.text_name);
+             description = itemView.findViewById(R.id.text_description);
 
 
         }

@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/courses"
+        android:id="@+id/menu_courses"
         android:title="@string/courses"/>
 
     <item
-        android:id="@+id/tracks"
+        android:id="@+id/menu_tracks"
         android:title="@string/tracks"/>
 
     <item
-        android:id="@+id/degrees"
+        android:id="@+id/menu_degrees"
         android:title="@string/degrees"/>
 
     <item
-        android:id="@+id/changes"
+        android:id="@+id/menu_changes"
         android:title="@string/changes"/>
 
     <item
-        android:id="@+id/myRepos"
+        android:id="@+id/menu_my_repos"
         android:title="@string/my_repos"/>
 
     <item
-        android:id="@+id/stack"
+        android:id="@+id/menu_stack"
         android:title="@string/stackoverflow"/>
 
 </menu>

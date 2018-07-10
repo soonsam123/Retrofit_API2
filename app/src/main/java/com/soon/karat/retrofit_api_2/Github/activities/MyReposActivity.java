@@ -35,8 +35,8 @@ public class MyReposActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_repos);
 
-        mRecyclerView = findViewById(R.id.recyclerView_activityMyRepos);
-        mProgressBar = findViewById(R.id.progressBar_activityMyRepos);
+        mRecyclerView = findViewById(R.id.recycler_view);
+        mProgressBar = findViewById(R.id.progressbar);
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(GitHubService.BASE_URL)

@@ -71,7 +71,7 @@ public class DegreesActivity extends BaseActivity {
 
 
     private void setupWidgets() {
-        mRecyclerView = findViewById(R.id.recyclerView_activityDegrees);
+        mRecyclerView = findViewById(R.id.recycler_view);
     }
 
     private void setupRecyclerView(List<Degree> degreeList) {

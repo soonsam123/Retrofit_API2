@@ -69,7 +69,7 @@ public class MainActivity extends BaseActivity {
     private void setupWidgets() {
         Log.i(TAG, "setupWidgets: Settings up the widgets");
 
-        mRecyclerView = findViewById(R.id.recyclerView_activityMain);
+        mRecyclerView = findViewById(R.id.recycler_view);
     }
 
     private void setupRecyclerView(List<Course> courseList) {

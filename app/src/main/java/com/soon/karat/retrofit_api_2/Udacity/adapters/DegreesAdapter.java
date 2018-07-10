@@ -56,8 +56,8 @@ public class DegreesAdapter extends RecyclerView.Adapter<DegreesAdapter.ItemHold
         public ItemHolder(View itemView) {
             super(itemView);
 
-            title = itemView.findViewById(R.id.txtView_title_itemDegrees);
-            summary = itemView.findViewById(R.id.txtView_summary_itemDegrees);
+            title = itemView.findViewById(R.id.text_title);
+            summary = itemView.findViewById(R.id.text_summary);
 
 
         }

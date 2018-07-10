@@ -4,10 +4,9 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
     <!-- 1. Spinner with the Questions Title -->
     <Spinner
-        android:id="@+id/spinner_activityStack"
+        android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -16,27 +15,27 @@
 
     <!-- 2. Body of the selected Questions -->
     <TextView
-        android:id="@+id/txtView_questionBody_activityStack"
+        android:id="@+id/text_question_body"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_activityStack"/>
+        app:layout_constraintTop_toBottomOf="@+id/spinner"/>
 
     <!-- 3. List with the Answers -->
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView_activityStack"
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtView_questionBody_activityStack"/>
+        app:layout_constraintTop_toBottomOf="@+id/text_question_body"/>
 
     <!-- 4. Button to authenticate -->
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingBtn_authenticate_activityStack"
+        android:id="@+id/button_authenticate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -51,7 +50,7 @@
 
 
     <ProgressBar
-        android:id="@+id/progressBar_activityStack"
+        android:id="@+id/progressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"

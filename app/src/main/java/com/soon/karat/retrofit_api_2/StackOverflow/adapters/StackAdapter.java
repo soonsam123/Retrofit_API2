@@ -67,8 +67,8 @@ public class StackAdapter extends RecyclerView.Adapter<StackAdapter.ItemHolder> 
 
         public ItemHolder(View itemView) {
             super(itemView);
-            answersInfo = itemView.findViewById(R.id.txtView_answerInfo_itemAnswers);
-            profilePicture = itemView.findViewById(R.id.imgView_profilePicture_itemAnswers);
+            answersInfo = itemView.findViewById(R.id.text_answer_info);
+            profilePicture = itemView.findViewById(R.id.image_profile);
         }
     }
 

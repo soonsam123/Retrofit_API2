@@ -54,7 +54,7 @@ public class ChangeAdapter extends RecyclerView.Adapter<ChangeAdapter.ItemHolder
         public ItemHolder(View itemView) {
             super(itemView);
 
-            subject = itemView.findViewById(R.id.txtView_subject_itemChange);
+            subject = itemView.findViewById(R.id.text_subject);
 
         }
 

@@ -87,11 +87,11 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.ItemHold
         public ItemHolder(View itemView) {
             super(itemView);
 
-            thumbNail = itemView.findViewById(R.id.imgView_courseThumbnail_itemCourse);
+            thumbNail = itemView.findViewById(R.id.image_course_thumbnail);
 
-            title = itemView.findViewById(R.id.txtView_title_itemCourse);
-            subTitle = itemView.findViewById(R.id.txtView_subTitle_itemCourse);
-            instructors = itemView.findViewById(R.id.txtView_instructors_itemCourse);
+            title = itemView.findViewById(R.id.text_title);
+            subTitle = itemView.findViewById(R.id.text_sub_title);
+            instructors = itemView.findViewById(R.id.text_instructors);
 
 
         }
