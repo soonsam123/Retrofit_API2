@@ -1,3 +1,12 @@
+/*
+ * Copyright (C) LeafSoon 2018
+ *
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential.
+ *
+ * Written by Soon Sam <karatesoon@gmail.com>
+ */
+
 package com.soon.karat.retrofit_api_2.Github.activities;
 
 import android.os.Bundle;
